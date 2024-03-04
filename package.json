@@ -1,20 +1,13 @@
 {
-  "name": "nodejs",
+  "name": "ani",
   "version": "1.0.0",
+  "description": "Your application description",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "npm install"
-}
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/node": "^18.0.6",
-    "axios": "^1.6.7",
-    "body-parser": "^1.20.2",
-    "express": "^4.18.3",
-    "node-fetch": "^3.2.6"
+    "start": "node index.js"
   },
-  "description": ""
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2"
+  }
 }
